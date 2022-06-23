@@ -1,0 +1,19 @@
+{
+  "name": "rapyd-node-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "cd ./tests && node index"
+  },
+  "keywords": [],
+  "author": "Domingo Lupo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
